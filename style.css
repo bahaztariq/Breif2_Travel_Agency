@@ -20,7 +20,7 @@ body{
     --o-fam:'Open Sans';
 }
 h1{
-    font-family: var(--h1-fam);
+    font-family: var(--v-fam);
     font-size: var(--h1-size);
     color: var(--thm-clr);
 }
@@ -103,6 +103,79 @@ header button{
     justify-content: center;
     align-items: center;
     display: none;
+}
+/* ***********hero section style*********** */
+.Hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.Hero img{
+    width: 600px;
+    height: 600px;
+}
+.Hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Hero-content h3{
+    color: #DF6951;
+    font-family: var(--p-fam);
+}
+.Hero-content .h1-content{
+    position: relative;
+}
+.Hero-content .h1-content img{
+    width: 400px;
+    height: 15px;
+    left: 40%;
+    top: 80px;
+    position: absolute;
+    z-index: -1;
+}
+/* .Hero-content .h1-content h1{
+    color: var(--thm-clr);
+    font-size: var(--h1-size);
+    font-family: var(--h1-fam);
+} */
+.Hero-content p{
+    color: var(--p-clr);
+}
+.Hero-btns{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.Hero-btns button{
+    padding:  20px;
+    border: none;
+    color: white;
+    font-size: var(--p-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Hero-btns .bttn1{
+    background-color: rgb(241, 165, 1);
+    border-radius: 8px;
+}
+.Hero-btns .bttn2{
+    background-color: hsl(10, 69%, 60%);
+    border-radius: 100%;
+}
+.Hero-btns .bttn2 img{
+    width: 12px;
+    height: 12px;
 }
 /* ***********Footer style*********** */
 footer{
