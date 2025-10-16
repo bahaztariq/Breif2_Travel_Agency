@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins';
+}
+:root{
+    --h1-size:5.25rem;
+    --h2-size:3rem;
+    --h3-size:1.125rem;
+    --pa-size:1rem;
+    --thm-clr:hsl(233, 51%, 20%);
+    --pa-clr:hsl(233,16,44);
+    --p-fam:'Poppins';
+    --v-fam:'volkhov';
+    --o-fam:'Open Sans';
+}
+h1{
+    font-family: var(--h1-fam);
+    font-size: var(--h1-size);
+    color: var(--thm-clr);
+}
+h2{
+    font-family: var(--h1-fam);
+    font-size: var(--h2-size);
+    color: var(--thm-clr);
+}
+h3{
+    font-family: var(--p-fam);
+    font-size: var(--h3-size);
+}
+h4{
+    font-family: var(--p-fam);
+    font-size: var(--pa-size);
+    font-weight: bold;
+}
+p{
+    font-family: var(--p-fam);
+    font-size: var(--pa-size);
+}
