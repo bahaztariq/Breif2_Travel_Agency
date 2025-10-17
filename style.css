@@ -555,7 +555,6 @@ transform: translateY(-5px);
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    transition: all 0.5s;
 }
 .faq .question-content{
     display: flex;
@@ -563,11 +562,13 @@ transform: translateY(-5px);
     gap: 25px;
     border-bottom: 2px solid gray;
     padding-bottom: 10px;
+    transition: all 0.5s;
 }
 .question-content .answer{
     display: none;
 }
 .question{
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
 }
@@ -586,13 +587,35 @@ form{
     border: 1px solid gray;
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    padding: 5%;
+    gap: 15px;
+    padding: 20px 50px;
 }
 form div{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+}
+form div input{
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(36, 2%, 47%, 0.29);
+    padding: 20px 10px;
+}
+form div textarea{
+    max-width: 100%;
+    min-height: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsla(36, 2%, 47%, 0.29);
+    padding: 20px 10px;
+}
+form input[type='submit']{
+     background-color: var(--thm-clr);
+     color: white;
+     border: none;
+    border-radius: 5px;
+    padding: 20px 10px;
+    cursor: pointer;
 }
 .infos{
     width:100%;
