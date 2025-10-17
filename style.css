@@ -290,6 +290,91 @@ transform: translateY(-5px);
     width: 15px;
     height:15px;
 }
+/* ***********Steps style*********** */
+.steps{
+    padding: 10% 18%;
+    display: flex;
+    gap: 25px;
+}
+.steps-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.steps img{
+    width: 50px;
+    height: 50px;
+}
+.steps .step1,.step2,.step3{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+.steps-cards{
+    position: relative;
+}
+.steps-cards .card img{
+    width: 100%;
+    height: 100%;
+}
+.steps-cards .card2{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 101;
+}
+/* ***********Testimonials section style*********** */
+.Testimonials{
+    padding: 10% 15%;
+}
+.Testimonials .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+.Testimonials .content .pagination{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Testimonials .content .pagination button{
+    font-size: var(--h3-size);
+    background-color: transparent;
+    border: none;
+}
+.Testimonials .content .fixed{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Testimonials .content .fixed h3{
+    font-size: var(--p-size);
+    color: var(--p-clr);
+    font-family: var(--p-fam);
+}
+.Testimonials .content .fixed h2{
+    font-size: var(--h2-size);
+    font-family: var(--h1-fam);
+}
+.opinion{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 12px;
+    width: 500px;
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.opinion img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: -50% -50%;
+}
 /* ***********Footer style*********** */
 footer{
     position: relative;
