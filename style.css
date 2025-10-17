@@ -378,6 +378,7 @@ transform: translateY(-5px);
 /* ***********partners section style*********** */
 .partners{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -793,4 +794,30 @@ footer .main-footer{
 .socials button img{
     width: 25px;
     height: 25px;
+}
+/************ responsive desing***********/
+@media (max-width:748px){
+    h1{
+        font-size: 3rem;
+    }
+    header{
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+    header nav{
+        display: none;
+    }
+    header button{
+        display: block;
+    }
+    .Hero .hero-banner{
+        display: none;
+    }
+    .steps-cards{
+        display: none;
+    }
+    .pack-grid{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(auto,1fr);
+    }
 }
