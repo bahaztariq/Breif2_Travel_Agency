@@ -2,6 +2,8 @@
 
 This is a responsive and visually appealing landing page for "Travigo," a modern travel agency. The website is designed to inspire users to explore new destinations and easily book their next trip.
 
+![alt text](Preview.png)
+
 ## ✨ Features
 
 Hero Section: A welcoming header with a navigation bar, a catchy slogan, and a call-to-action to explore tours.
@@ -39,6 +41,8 @@ JavaScript: For interactive elements and dynamic features.
 ## 🚀 How to View
 
 Simply open the `index.html` file in your web browser to view the website.
+
+To view Planning simply click [Trello](https://trello.com/invite/b/68eac2bd543efa0ecfd990b0/ATTIea6caebedea9329437ac01708f9a4328CB038268/travigo-project) 
 
 ## 👤 Author
 
