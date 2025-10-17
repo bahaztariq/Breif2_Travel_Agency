@@ -562,7 +562,6 @@ transform: translateY(-5px);
     gap: 25px;
     border-bottom: 2px solid gray;
     padding-bottom: 10px;
-    transition: all 0.5s;
 }
 .question-content .answer{
     display: none;
@@ -571,6 +570,7 @@ transform: translateY(-5px);
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .question-content:hover .answer{
     display: block;
